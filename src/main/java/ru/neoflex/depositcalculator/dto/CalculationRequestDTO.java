@@ -1,4 +1,4 @@
-package ru.neoflex.DepositCalculator.dto;
+package ru.neoflex.depositcalculator.dto;
 
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.DecimalMin;

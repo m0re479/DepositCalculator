@@ -1,8 +1,8 @@
-package ru.neoflex.DepositCalculator.services;
+package ru.neoflex.depositcalculator.services;
 
 import org.springframework.stereotype.Service;
-import ru.neoflex.DepositCalculator.dto.CalculationRequestDTO;
-import ru.neoflex.DepositCalculator.dto.CalculationResponseDTO;
+import ru.neoflex.depositcalculator.dto.CalculationRequestDTO;
+import ru.neoflex.depositcalculator.dto.CalculationResponseDTO;
 
 import java.math.BigDecimal;
 import java.math.MathContext;

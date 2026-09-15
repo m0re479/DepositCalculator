@@ -1,4 +1,4 @@
-package ru.neoflex.DepositCalculator.dto;
+package ru.neoflex.depositcalculator.dto;
 
 import java.math.BigDecimal;
 
