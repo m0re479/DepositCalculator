@@ -1,0 +1,137 @@
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.calculator-card {
+    background: #ffffff;
+    width: 100%;
+    max-width: 440px;
+    padding: 32px 28px;
+    border-radius: 16px;
+    border: 3px solid #27203e;
+}
+
+.title {
+    text-align: center;
+    font-size: 22px;
+    color: rgb(114, 44, 144);
+    margin-bottom: 20px;
+}
+
+.calculator-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-item {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    flex-direction: column;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.form-item label {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+
+.form-item input {
+    padding: 8px 1px;
+    font-size: 15px;
+    border: 1px solid #604f97;
+    border-radius: 8px;
+    background-color: #d9d2ef;
+    text-align: center;
+}
+
+.form-item input:focus {
+    border-color: #604f97;
+    background-color: #ffffff;
+}
+
+.form-item input.input-error {
+    border-color: rgb(245, 9, 9);
+    background-color: rgb(242, 141, 141);
+}
+
+.error-message {
+    grid-column: 1 / -1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    color: brown;
+    padding: 5px;
+}
+
+.general-error {
+    background-color: rgba(220, 69, 69, 0.935);
+    border-radius: 20px;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    white-space: pre-line;
+}
+
+.submit-btn {
+    margin: 8px auto 0 auto;
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 15px;
+    color: #000000;
+    background-color: rgb(182, 134, 227);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.submit-btn:hover:not(:disabled) {
+    background-color: rgb(205, 165, 242);
+}
+
+.submit-btn:disabled {
+    background-color: #dad7e4;
+    cursor: not-allowed;
+}
+
+.result-card {
+    margin-top: 24px;
+    padding-top: 5px;
+    border-top: 3px dashed blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.result-card h2 {
+    font-size: 20px;
+    color: rgb(196, 25, 226);
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.result-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 240px;
+    padding: 4px 0;
+    font-size: 16px;
+    color: rgb(0, 3, 9);
+}
+
+.result-item span {
+    text-align: left;
+    font-weight: bold;
+}
+
+.result-item strong {
+    text-align: right;
+}
