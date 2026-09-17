@@ -7,6 +7,7 @@ import ru.neoflex.depositcalculator.dto.CalculationRequestDTO;
 import ru.neoflex.depositcalculator.dto.CalculationResponseDTO;
 import ru.neoflex.depositcalculator.services.CalculationService;
 
+@CrossOrigin(origins = "http://localhost:5173")
 @RestController
 @RequestMapping("/api")
 public class CalculationController {
