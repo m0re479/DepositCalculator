@@ -9,5 +9,9 @@ target/
 *.iml
 *.ipr
 
+### Frontend ###
+**/node_modules/
+**/dist/
+
 ### VS Code ###
 .vscode/
